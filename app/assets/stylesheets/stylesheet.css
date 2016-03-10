@@ -1,0 +1,26 @@
+body {
+    font-family: Lato;
+    font-size: 12px;
+   
+}
+
+.header {
+    background-color: #c0c5c3;
+    font-family: Lato;
+    font-size: 36px;
+    height: 100px;
+    display: block;
+    color: #343d46;
+}
+
+.banner {
+    display: inline-block;
+    font-size: 36px;
+}
+
+.navigation {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    font-size: 12px;
+}
