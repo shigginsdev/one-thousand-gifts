@@ -24,3 +24,9 @@ body {
     float: right;
     font-size: 12px;
 }
+
+.image_grid {
+    
+    float: left;
+    padding: 25px;
+}
