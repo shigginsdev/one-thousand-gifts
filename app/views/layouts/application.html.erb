@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>OneThousandGifts</title>
+      <title><%= yield(:title) %> | One Thousand Gifts</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -9,7 +9,15 @@
 
 </head>
 <body>
-        
+    <div class="header">
+      <div class="banner">
+           1000 | GIFTS
+      </div>
+      <div class="navigation">
+          HOME | ABOUT
+      </div>
+    </div>
+  
 <%= yield %>
 
 </body>
