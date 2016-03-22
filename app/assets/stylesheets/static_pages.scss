@@ -11,7 +11,7 @@ body {
     background-color: #c0c5c3;
     font-family: Lato;
     font-size: 36px;
-    height: 100px;
+    height: 125px;
     display: block;
     color: #343d46;
 }
@@ -26,4 +26,8 @@ body {
     text-align: right;
     float: right;
     font-size: 12px;
+}
+.image_grid {
+    padding: 15px;
+    float: left;
 }

@@ -1,32 +1,33 @@
-body {
+/*body {
     font-family: Lato;
     font-size: 12px;
    
 }
 
-.header {
+header {
     background-color: #c0c5c3;
     font-family: Lato;
     font-size: 36px;
-    height: 100px;
-    display: block;
+    height: 125px;
+    padding: 10px;
+    display: inline-block;
     color: #343d46;
 }
-
+.image_grid {
+    float: left;
+    padding: 10px;
+    
+}
 .banner {
-    display: inline-block;
+    float: left;
     font-size: 36px;
 }
-
 .navigation {
-    display: inline-block;
-    text-align: right;
-    float: right;
     font-size: 12px;
-}
+} */
 
-.image_grid {
-    
-    float: left;
-    padding: 25px;
-}
+/*.banner {
+    font-size: 12px;
+}*/
+
+
