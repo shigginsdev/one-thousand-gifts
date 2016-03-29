@@ -5,19 +5,11 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
-
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <%= render 'layouts/shim' %>
 </head>
 <body>
-    <div class="header">
-        <p>One Thousand Gifts</p>
-        <p class="navigation">
-            <a href="/static_pages/home">HOME | </a>
-            <a href="/static_pages/about">ABOUT | </a>
-            <a href="/static_pages/help">HELP | </a>
-            <a href="/static_pages/contact">CONTACT</a>
-        </p>
-    </div>
+    <%= render 'layouts/header' %>
     <%= yield %>
 </body>
 </html>

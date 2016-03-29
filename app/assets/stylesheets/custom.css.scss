@@ -1,0 +1,36 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*General*/
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+h1 {
+  font-family: Quicksand;
+}
+/*Navigation*/
+.navbar {
+    background-color: #fff;
+}
+
+.push_width {
+    width: 100%;
+    height: auto;
+}
+
+/*Gifts*/
+.image_grid {
+    padding: 15px;
+    float: left;
+}
+
+/*Typography*/
+/*Footer*/
